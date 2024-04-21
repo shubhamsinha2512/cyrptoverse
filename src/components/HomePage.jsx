@@ -8,8 +8,9 @@ import { useGetCryptosQuery } from '../services/cryptoApi'
 import Cryptocurrencies from './Cryptocurrencies'
 import News from './News'
 
+const { Title } = Typography;
+
 function HomePage() {
-  const { Title } = Typography;
 
   const {data, isFetching, error} = useGetCryptosQuery(10);
   const globalStats = data?.data?.stats;
