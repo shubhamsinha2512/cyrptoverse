@@ -30,13 +30,13 @@ function HomePage() {
 
       <div className='home-heading-container'>
         <Title level={2} className='home-title'>Top 10 Cryptocurrencies in the world</Title>
-        <Title level={3} className='home-title'><Link to="/cryptocurrencies" >Show more..</Link></Title>
+        <Title level={5} className='home-title'><Link to="/cryptocurrencies" >Show more..</Link></Title>
       </div>
       <Cryptocurrencies simplified />
 
       <div className='home-heading-container'>
         <Title level={2} className='home-title'>Latest Crypto News</Title>
-        <Title level={3} className='home-title'><Link to="/news" >Show more..</Link></Title>
+        <Title level={5} className='home-title'><Link to="/news" >Show more..</Link></Title>
       </div>
       <News simplified />
     </div>
